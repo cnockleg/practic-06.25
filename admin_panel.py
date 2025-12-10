@@ -1,34 +1,5 @@
-# импортирование библиотек
-# import sys 
-# import os 
-# from random import randint
 import datetime
-
-# import psycopg2
-# from psycopg2 import sql 
-
 import main
-# from failover import connect_with_failover
-
-# Основной код
-# class AdminPanel():
-#     def __init__(self, adminID):
-#         self.adminID = adminID
-#         # self.admin_name = main.get_admin_name(adminID)
-#         self.admin_name = 'Алексей Z'
-#         self.piska = randint(1, 25)
-#         pass
-
-#     def __str__(self):
-#         return f'{self.admin_name} админ | {self.piska}'
-
-
-# if __name__ == '__main__':
-#     admin = AdminPanel(1)
-#     print(admin)
-
-
-
 
 def admin_panel():
     user_check = input("Введите пароль: ")
